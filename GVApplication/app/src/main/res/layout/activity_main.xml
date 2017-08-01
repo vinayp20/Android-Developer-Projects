@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity$FragmentMain">
+
+    <Button
+        android:text="popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/popular"/>
+
+    <Button
+        android:text="TOP RATED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top" />
+
+    <Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:titleTextColor="#ffffff"
+    android:title="Ayy lmao"
+    android:background="@color/black_overlay"
+
+
+    ></Toolbar>
+
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="160dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="0dp"
+        android:stretchMode="spacingWidthUniform"
+        android:gravity="center"
+        android:background="#000000"
+
+        />
+
+</LinearLayout>
